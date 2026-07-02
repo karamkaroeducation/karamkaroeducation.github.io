@@ -176,3 +176,43 @@ font-size:26px;
     border-radius:20px;
     filter:drop-shadow(0 10px 25px rgba(0,0,0,.25));
 }
+/* Founder Section */
+
+#founder{
+    text-align:center;
+    background:#ffffff;
+    padding:80px 20px;
+}
+
+.founder-img{
+    width:280px;
+    max-width:90%;
+    border-radius:20px;
+    margin:25px 0;
+    box-shadow:0 15px 35px rgba(0,0,0,.18);
+}
+
+#founder h2{
+    color:#2563eb;
+    font-size:42px;
+}
+
+#founder h3{
+    margin-top:15px;
+    font-size:30px;
+}
+
+#founder blockquote{
+    font-size:22px;
+    font-style:italic;
+    color:#2563eb;
+    margin:25px auto;
+    max-width:700px;
+}
+
+#founder p{
+    max-width:800px;
+    margin:auto;
+    font-size:18px;
+    line-height:1.8;
+}
