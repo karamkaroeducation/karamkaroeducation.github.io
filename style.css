@@ -185,28 +185,40 @@ font-size:26px;
 }
 
 .founder-img{
-    width:280px;
+    width:320px;
     max-width:90%;
     border-radius:20px;
     margin:25px 0;
     box-shadow:0 15px 35px rgba(0,0,0,.18);
+    transition:0.3s;
+}
+
+.founder-img:hover{
+    transform:scale(1.05);
 }
 
 #founder h2{
     color:#2563eb;
     font-size:42px;
+    margin-bottom:20px;
 }
 
 #founder h3{
     margin-top:15px;
     font-size:30px;
+    color:#222;
+}
+
+#founder strong{
+    color:#555;
 }
 
 #founder blockquote{
-    font-size:22px;
+    font-size:24px;
     font-style:italic;
+    font-weight:bold;
     color:#2563eb;
-    margin:25px auto;
+    margin:30px auto;
     max-width:700px;
 }
 
@@ -215,4 +227,5 @@ font-size:26px;
     margin:auto;
     font-size:18px;
     line-height:1.8;
+    color:#444;
 }
