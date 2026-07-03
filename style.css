@@ -235,3 +235,51 @@ font-size:26px;
     line-height:1.8;
     color:#444;
 }
+/* Hero Tagline */
+.tagline{
+    font-size:30px;
+    font-weight:700;
+    margin-top:20px;
+    color:#ffffff;
+    letter-spacing:1px;
+}
+
+/* Hero Subtitle */
+.subtitle{
+    font-size:18px;
+    color:rgba(255,255,255,.92);
+    margin-top:15px;
+    margin-bottom:35px;
+}
+
+/* Secondary Button */
+.secondary-btn{
+    background:transparent;
+    color:#ffffff;
+    border:2px solid #ffffff;
+    margin-left:15px;
+}
+
+.secondary-btn:hover{
+    background:#ffffff;
+    color:#2563eb;
+}
+
+/* Mobile */
+@media(max-width:768px){
+
+.tagline{
+    font-size:22px;
+}
+
+.subtitle{
+    font-size:16px;
+}
+
+.secondary-btn{
+    display:block;
+    margin:15px auto 0;
+    width:220px;
+    text-align:center;
+}
+}
