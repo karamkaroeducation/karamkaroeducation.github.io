@@ -387,6 +387,31 @@ font-size:26px;
     }
 
 }
+
+#quotesList{
+  max-width:800px;
+  margin:30px auto;
+}
+
+.card{
+  background:#ffffff;
+  border-radius:20px;
+  padding:25px;
+  margin-bottom:20px;
+  box-shadow:0 8px 20px rgba(0,0,0,0.1);
+}
+
+.card p{
+  font-size:22px;
+  line-height:1.8;
+  color:#333;
+}
+
+.card hr{
+  margin-top:15px;
+  border:none;
+  border-top:1px solid #ddd;
+}
     
 
 
