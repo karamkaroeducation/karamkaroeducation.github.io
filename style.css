@@ -332,3 +332,11 @@ font-size:26px;
     font-size:18px;
     color:#444;
 }
+.founder-card{
+    display:flex;
+    align-items:center;
+    gap:40px;
+    justify-content:center;
+    flex-wrap:wrap;
+    margin-top:40px;
+}
