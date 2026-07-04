@@ -359,10 +359,10 @@ font-size:26px;
 
 .trust-bar{
     display:flex;
-    justify-content:space-evenly;
+    justify-content:center;
     align-items:center;
     flex-wrap:wrap;
-    gap:25px;
+    gap:20px;
     padding:15px 10px;
     max-width:1000px;
 margin:0 auto;
@@ -379,13 +379,13 @@ margin:0 auto;
     font-size:15px;
     padding:8px 0;
 }
-}
 
 @media(max-width:768px){
 
 .trust-bar{
     gap:12px;
     padding:15px;
+    justify-content:center;
 }
 
 .trust-item{
