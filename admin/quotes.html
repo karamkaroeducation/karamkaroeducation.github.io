@@ -1,29 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Manage Quotes | KaramKaro Education</title>
+
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
 <div class="dashboard">
 
-    <h1>Manage Quotes</h1>
+    <h1>📝 Manage Quotes</h1>
 
-    <textarea id="quoteText" placeholder="Write your quote here..." rows="8"></textarea>
-
-    <button id="publishBtn">Publish Quote</button>
+    <!-- Text Quote -->
+    <label><strong>Text Quote</strong></label><br>
+    <textarea
+        id="quoteText"
+        rows="6"
+        placeholder="Write your inspirational quote here..."
+    ></textarea>
 
     <br><br>
 
+    <!-- Image Quote -->
+    <label><strong>Quote Image</strong></label><br>
+    <input
+        type="file"
+        id="quoteImage"
+        accept="image/*"
+    >
+
+    <br><br>
+
+    <!-- Publish -->
+    <button id="publishBtn">
+        🚀 Publish Quote
+    </button>
+
+    <br><br>
+
+    <!-- Dashboard -->
     <button onclick="window.location.href='dashboard.html'">
-        ← Back to Dashboard
+        ⬅ Back to Dashboard
     </button>
 
 </div>
+
 <script type="module" src="../firebase.js"></script>
 <script type="module" src="quotes.js"></script>
+
 </body>
 </html>
