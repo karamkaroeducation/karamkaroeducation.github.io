@@ -340,3 +340,17 @@ font-size:26px;
     flex-wrap:wrap;
     margin-top:40px;
 }
+.founder-content{
+    flex:1;
+    text-align:left;
+}
+    @media(max-width:768px){
+    .founder-card{
+        flex-direction:column;
+        text-align:center;
+    }
+
+    .founder-content{
+        text-align:center;
+    }
+    }
