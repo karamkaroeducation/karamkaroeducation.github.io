@@ -283,3 +283,52 @@ font-size:26px;
     text-align:center;
 }
 }
+/* Premium Founder Section */
+
+#about{
+    max-width:1000px;
+    margin:80px auto;
+    padding:40px;
+    background:#ffffff;
+    border-radius:25px;
+    box-shadow:0 20px 50px rgba(0,0,0,.08);
+    text-align:center;
+}
+
+.founder-img{
+    width:260px;
+    border-radius:20px;
+    box-shadow:0 15px 40px rgba(0,0,0,.15);
+    margin-bottom:25px;
+}
+
+.founder-name{
+    font-size:32px;
+    font-weight:700;
+    margin-bottom:8px;
+}
+
+.founder-role{
+    color:#2563eb;
+    font-size:18px;
+    font-weight:600;
+    margin-bottom:25px;
+}
+
+.founder-quote{
+    max-width:700px;
+    margin:25px auto;
+    padding:20px;
+    border-left:5px solid #2563eb;
+    background:#f8fbff;
+    font-style:italic;
+    font-size:22px;
+    border-radius:12px;
+}
+#about p{
+    max-width:800px;
+    margin:auto;
+    line-height:1.8;
+    font-size:18px;
+    color:#444;
+}
