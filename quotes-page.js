@@ -17,8 +17,8 @@ snapshot.forEach((doc) => {
 
   quotesList.innerHTML += `
     <div class="card">
-      <p>${data.text}</p>
-      <hr>
+        ${data.imageUrl ? `<img src="${data.imageUrl}" style="width:100%; border-radius:10px; margin-bottom:15px;">` : ""}
+        <p>${data.text}</p>
+        <hr>
     </div>
-  `;
-});
+`;
