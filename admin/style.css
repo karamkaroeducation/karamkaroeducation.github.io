@@ -8,14 +8,16 @@ body{
     font-family:Arial,sans-serif;
     background:#f5f7fb;
 }
+
 .login-container{
     width:350px;
     margin:100px auto;
+    background:#ffffff;
+    padding:30px;
+    border-radius:12px;
+    box-shadow:0 8px 20px rgba(0,0,0,0.1);
 }
-background:#ffffff;
-padding:30px;
-border-radius:12px;
-box-shadow:0 8px 20px rgba(0,0,0,0.1);
+
 .login-container h1{
     text-align:center;
     margin-bottom:10px;
